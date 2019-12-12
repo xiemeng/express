@@ -5,9 +5,9 @@
  */
 
 var app = require('../app');
+require('../loadrouter')
 var debug = require('debug')('myapp:server');
 var http = require('http');
-require('../loadrouter')
 /**
  * Get port from environment and store in Express.
  */
