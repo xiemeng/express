@@ -6,7 +6,7 @@ app.post('/login',(req,res) => {
 app.get('/login',(req,res) => {
 	res.json({
 				status: '0',
-				msg: '',
+				msg: '谢孟是个大帅哥',
 				result: {
 					count:4,
 					list: [
