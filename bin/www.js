@@ -5,6 +5,7 @@
  */
 
 var app = require('../app');
+require('../methods')
 require('../loadrouter')
 var debug = require('debug')('myapp:server');
 var http = require('http');
